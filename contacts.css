@@ -1,0 +1,17 @@
+.content_contacts{
+    width: 800px;
+    height: 500px;
+}
+.content_contacts > h3 {
+    color: rgb(73, 27, 27);
+    font-family: "PT Sans";
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+.content_contacts > p{
+    color: rgb(73, 27, 27);
+    font-family: "PT Sans";
+    font-size: 20px;
+    padding-left: 40px;
+}

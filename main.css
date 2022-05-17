@@ -1,0 +1,42 @@
+.text_main_page{
+    font-family: "PT Sans";
+    font-size: 26px;
+    text-align: center;
+    color: rgb(73, 27, 27);
+    padding-bottom: 20px;
+}
+.content_main_page{
+    width: 800px;
+    height: 700px;
+}
+.text_main_about_us{
+    font-family: "PT Sans";
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(73, 27, 27);
+    line-height: 1.5;
+}
+.our_asort_card{
+    background-color: rgba(250, 193, 38, 0.389);
+    width: 250px;
+    height: 340px;
+    margin-top: 40px;
+}
+.our_asort_card > h2 {
+    text-align: center;
+    font-family: "PT Sans";
+    font-size: 26px;
+    color: rgb(73, 27, 27);
+    padding-top: 20px;
+}
+.our_asort_card > img{
+    width: 210px;
+    height: 210px;
+    margin: 20px 20px 0px 20px;
+}
+.content_asort{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}

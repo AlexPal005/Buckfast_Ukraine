@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_block_header{
+    width:1000px;
+    height: 230px;
+    padding: 0 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container_header{
+    display: flex;
+    justify-content: space-between;
+}
+#photo_logo_header{
+    float: left;
+    margin-right: 15px;
+}
+.block_main_logo{
+    width: 600px;
+    padding: 65px 0 0  0;
+    margin: 0;
+}
+.main_text_logo > a{
+    font-family: "PT Sans";
+    font-size: 40px;
+    margin-bottom: 0;
+    color: rgb(73, 27, 27);
+    margin-top: 0;
+    text-decoration: none;
+ 
+}
+.text_bottom_logo{
+    font-family: "PT Sans";
+    font-size: 23px;
+    margin-top: 8px;
+    color: rgb(73, 27, 27);
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.block_phones{
+    padding: 45px 0 0 0;
+    margin: 0;
+}
+.phone_number{
+    font-family: "PT Sans";
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(73, 27, 27);
+    margin-top: 0;
+    margin-bottom: 0;
+   
+}
+#zv{
+    float: right;
+    margin-top: 15px;
+    font-size: 22px;
+    font-family: "PT Sans";
+    font-weight: bold;
+    color: rgb(73, 27, 27);
+    text-decoration: none;
+    border-bottom: 3px dashed rgb(73, 27, 27); 
+}
+menu{
+    background-color: rgb(250, 193, 38);
+    height: 80px;
+}
+.menu_content{
+    width:1000px;
+    padding: 23px 10px 0 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.list_menu{
+    padding-left: 84px;
+}
+.list_menu > li{
+    display: inline;
+    margin: 0;
+}
+.list_menu > li> a{
+    text-decoration: none;
+    color: rgb(73, 27, 27);
+    font-family: "PT Sans";
+    font-size: 26px;
+}
+.item_list_menu{
+    border-right:3px solid rgb(73, 27, 27);
+    padding-right: 23px ;  
+}
+.item_list_second{
+    padding-left: 23px;
+}
+
+/*slider*/
+#slides {
+    position: relative;
+    height: 400px;
+    width: 1000px;
+    padding: 0 10px;
+    list-style-type: none;
+    margin-left: auto; 
+    margin-right: auto; 
+} 
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    z-index: 1;
+    box-sizing: border-box;
+    transition: opacity 3s;
+}
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+/*content*/
+.container_content{
+    width: 1000px;
+    height: 30px;
+    padding: 0px 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container_content > ul{
+    padding-top: 5px;
+}
+.container_content > ul > li{
+    display: inline;
+    padding-right: 5px;
+    
+}
+.container_content > ul > li > a,span{
+    text-decoration: none;
+    color: rgba(73, 27, 27, 0.584);
+    font-family: "PT Sans";
+    font-size: 14px;
+}
+/*catalog left*/
+.container_in{
+    padding-top: 3px;
+    display: flex;
+    width: 1000px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left_menu{
+    width: 220px;
+}
+.content{
+    width: 800px;
+    height: 785px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.left_menu > ul> li{
+    list-style-type: none;
+    margin-top: 5px;
+}
+.first_item{
+    margin-top: 0;
+}
+.left_menu > ul > li > a{
+    color: rgb(73, 27, 27);
+    font-size: 18px;
+    font-family: "PT Sans";
+    font-weight: bold;
+}
+.list_item_third > ul{
+    padding-left: 20px;
+}
+.list_item_third > ul a{
+    color: rgb(73, 27, 27);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "PT Sans";
+}
+.list_item_first > a{
+    text-decoration: none;
+}
+.item_second_second > a{
+    text-decoration: none;
+  }
+/*content*/
+.card{
+    width: 250px;
+    height: 380px;
+    background-color: rgba(250, 193, 38, 0.389) ;
+}
+.card > img{
+    width: 210px;
+    height: 210px;
+    margin: 20px 20px 0px 20px;
+}
+.card > p{
+    padding-left: 20px;
+    padding-top: 0;
+    font-family: "PT Sans";
+    font-size: 24px;
+    color: rgb(73, 27, 27);
+    font-weight: bold;
+}
+.card > h1{
+    color: rgb(73, 27, 27);
+    font-weight: bold;
+    font-family: "PT Sans";
+    padding-left: 20px;
+    padding-top: 60px;
+}
+.busket{
+    position: relative;
+    right: 20px;
+    bottom: 40px;
+    width:35px;
+    height: 35px;
+    float: right;
+}
+.number_pages{
+    width: 770;
+    height: 110px;
+    text-align: center;
+    padding-top: 30px;
+}
+.numbers{
+    font-size: 20px;
+    font-family: "PT Sans";
+    color: rgb(44, 44, 44);
+    letter-spacing: 10px;
+}
+.number_three{
+    font-size: 25px;
+    font-family: "PT Sans";
+    color: rgb(44, 44, 44);
+    font-weight: bold;
+}
+.about_us{
+    width: 770;
+    height: 440px;
+    border-top: 1px solid black;
+    display: flex;
+    font-size: 17px;
+    font-family: "PT Sans";
+    color: rgb(97, 97, 97);
+}
+.text_one{
+    width: 380px;
+    margin-right: 40px;
+    padding-top: 30px;
+}
+.text_two{
+    width: 380px;
+    padding-top: 30px;
+}
+footer{
+    background-color: rgba(250, 193, 38, 0.389);
+}
+.block_footer{
+    width: 1000px;
+    padding: 50px 10px 0;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu_footer > ul > li{
+    list-style-type: none;
+}
+.menu_footer a , .mail_block, .link_me, .link_me > a{
+    font-size: 20px;
+    font-family: "PT Sans";
+    color: rgb(73, 27, 27);
+}
+.cont{
+    min-height: calc(100vh - 220px);
+}
+.price_list{
+    position: relative;
+    top: 110px;
+    left: 30px;
+}
+.price_list  img{
+    width: 90px;
+    height: 90px;
+}
+
+.price_list > figcaption > a{
+    font-size: 20px;
+    font-family: "PT Sans";
+    color: rgb(73, 27, 27);
+    font-weight: bold;
+    text-decoration: none;
+}
+/*popup*/
+.popup__bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    pointer-events: none; 
+    transition: 0.5s all;
+}
+
+.popup__bg.active { 
+    opacity: 1; 
+    pointer-events: all; 
+    transition: 0.5s all;
+    z-index: 2;
+}
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0); 
+    background: white;
+    width: 340px;
+    height: 530px;
+    padding: 25px 65px;
+    transition: 0.5s all;
+}
+
+.popup.active { 
+    transform: translate(-50%, -50%) scale(1); 
+    transition: 0.5s all;
+}
+.popup > img {
+    width:25px;
+    height: 25px;
+    position: absolute;
+    top:-25px;
+    right: -25px;
+}
+.popup > h1 {
+    font-size: 30px;
+    font-family: "PT Sans";
+    color: rgb(73, 27, 27);
+    text-align: center;
+}
+.popup input{
+    width: 340px;
+    height: 45px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+.popup textarea{
+    width: 340px;
+    height: 140px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+.label__text{
+    font-size: 16px;
+    font-family: "PT Sans";
+    color: rgb(73, 27, 27);
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 5px;
+}
+.btn_o{
+    width: 130px;
+    height: 40px;
+    background-color: rgb(250, 193, 38);
+    border: none;
+    font-size: 20px;
+    font-family: "PT Sans";
+    color: rgb(73, 27, 27);
+    font-weight: bold;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 15px;
+}
+.email_lb{
+    box-shadow: 0px 1px 20px -7px rgba(255, 0, 0, 1) inset;
+}
+.email_lb::placeholder{
+    color: rgba(234, 67, 67, 0.7);
+    font-family: "PT Sans";
+    font-style: italic;
+    font-size: 14px;
+    padding-left: 20px;
+    font-weight: bold;
+}
